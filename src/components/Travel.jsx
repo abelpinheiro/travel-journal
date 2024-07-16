@@ -2,9 +2,9 @@ import React from "react"
 
 export default function Travel(props){
     const date = `${props.startDate} - ${props.endDate}`
+    console.log(props.imageUrl)
     return (
         <div className="travel">
-            
             <img src={props.imageUrl} alt="" className="travel--photo"/>
             <div className="travel--details">
                 <div className="travel--map-locations">
